@@ -1,8 +1,8 @@
 .*
 exploits
-manifests
 deploy*
 node_modules
 *.md
 *.yml
 *.yaml
+kubernetes
