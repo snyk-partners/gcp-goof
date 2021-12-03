@@ -7,4 +7,5 @@ config.rb
 npm-debug.log
 .vscode
 .dccache
-
+dockercfg.json
+skaffold.yaml
