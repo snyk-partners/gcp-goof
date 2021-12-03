@@ -1,0 +1,9 @@
+# [START cloudbuild_goof]
+steps:
+# Install dependencies
+- name: node
+  entrypoint: npm
+  args: ['install']
+# Run Snyk Open Source test
+- name: snyk/snyk:node-14
+  args: ['--severity-threshold=critical']
