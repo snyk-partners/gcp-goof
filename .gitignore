@@ -6,4 +6,5 @@ sass
 config.rb
 npm-debug.log
 .vscode
+.dccache
 
