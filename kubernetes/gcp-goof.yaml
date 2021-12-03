@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: goof
-          image: gcr.io/<<gcp-project>>/goof:before #Edit with your GCP Project
+          image: gcr.io/bizdev-playground/goof:before #Edit with your GCP Project
           imagePullPolicy: Always
           resources:
             requests:
